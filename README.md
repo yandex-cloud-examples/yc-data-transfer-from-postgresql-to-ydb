@@ -1,5 +1,3 @@
-# Название сценария
+# Миграция данных из кластера Yandex Managed Service for PostgreSQL в Yandex Managed Service for YDB с помощью Yandex Data Transfer
 
-Описание сценария и инструкция по его применению.
-
-Для практических руководств обязательна ссылка на документацию.
+С помощью сервиса [Data Transfer](https://cloud.yandex.ru/docs/data-transfer) вы можете поставлять данные из базы данных [Managed Service for PostgreSQL](https://cloud.yandex.ru/docs/managed-postgresql) в [Managed Service for YDB](https://cloud.yandex.ru/docs/ydb) в реальном времени. Настройка через Terraform описана в [практическом руководстве](https://cloud.yandex.ru/docs/data-transfer/tutorials/mpg-to-ydb), необходимый для настройки конфигурационный файл [data-transfer-mpg-ydb.tf](data-transfer-mpg-ydb.tf) расположен в этом репозитории.

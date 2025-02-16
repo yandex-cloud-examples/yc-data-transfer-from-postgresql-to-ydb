@@ -1,0 +1,3 @@
+# Migrating data from a Yandex Managed Service for PostgreSQL cluster to Yandex Managed Service for YDB through Yandex Data Transfer
+
+With [Data Transfer](https://yandex.cloud/docs/data-transfer), you can migrate data from a [Managed Service for PostgreSQL](https://yandex.cloud/docs/managed-postgresql) database to [Managed Service for YDB](https://yandex.cloud/docs/ydb) in real time. See [this tutorial](https://yandex.cloud/docs/data-transfer/tutorials/mpg-to-ydb) to learn how to set up the solution with Terraform. This repository contains the configuration file you will need: [data-transfer-mpg-ydb.tf](data-transfer-mpg-ydb.tf).
